@@ -4,16 +4,16 @@ class Dog
 
   def initialize(name)
     @name = name
-	save
+	  save
   end
 
   def self.all
-	@@all
-  ends
+	   @@all
+  end
 
   def self.print_all
     @@all.each {|dog| puts dog.name }
-	end  
+    end  
   end
 
   def self.clear_all
